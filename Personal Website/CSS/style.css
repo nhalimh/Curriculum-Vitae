@@ -1,0 +1,337 @@
+@charset "utf-8";
+/*CSS */
+body {
+  background-color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  width: 90%;
+  height: 95vh;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 25px;
+  padding: 0% 2%;
+  margin: 0% auto 0px auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #f6a0ac;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+  border-radius: 20px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  margin: 30px;
+  font-family: cursive;
+  color: rgb(77, 67, 49);
+  font-size: 15px;
+  font-weight: 700;
+}
+.logo {
+  font-family: cursive;
+  color: rgb(77, 67, 49);
+  font-size: 22px;
+}
+.active {
+  font-weight: bold;
+  color: rgb(246, 248, 248);
+}
+.text-container p:nth-child(1) {
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(77, 67, 49);
+  font-size: 22px;
+}
+.text-container p:nth-child(2) {
+  font-family: cursive;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(77, 67, 49);
+  font-size: 60px;
+}
+.text-container p:nth-child(3) {
+  font-family: cursive;
+  color: rgb(77, 67, 49);
+  font-size: 30px;
+  height: 30px;
+}
+.text-container p {
+  line-height: 0px;
+  margin: 45px 0px 25px;
+}
+.text-container {
+  position: absolute;
+  left: 40%;
+  top: 48%;
+  transform: translate(-13%, -42%);
+}
+.text-container button,
+.about-text button {
+  width: 130px;
+  height: 42px;
+  border-radius: 10px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  margin: 0px 10px;
+}
+.hire-btn {
+  border: 2px solid #ffffff;
+  color: rgb(77, 67, 49);
+}
+.down-cv {
+  color: rgb(77, 67, 49);
+  border: none;
+}
+button:active {
+  transform: scale(1.1);
+}
+.person {
+  height: 340px;
+  position: absolute;
+  bottom: 0px;
+  left: 12%;
+  transform: translateX(-55%);
+  border-radius: 20px;
+}
+.about-container {
+  width: 95%;
+  height: 95vh;
+  top: 95px;
+  border-radius: 25px;
+  box-shadow: darkgray;
+  display: flex;
+  margin: -7% auto 20px auto;
+  background-image: url("../images/bg-about.png");
+  background-size: cover;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-text {
+  width: 550px;
+}
+.about-text p:nth-child(1) {
+  color: rgb(77, 67, 49);
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 0px;
+}
+.about-text p:nth-child(2) {
+  color: rgb(77, 67, 49);
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 5px;
+}
+.about-text p:nth-child(3),
+.about-text p:nth-child(4) {
+  color: rgb(77, 67, 49);
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 16px;
+}
+.services {
+  height: 95vh;
+  width: 90%;
+  background-image: url("../images/bg-services.png");
+  padding: 0% 2%;
+  border-radius: 25px;
+  background-size: cover;
+  display: flex;
+  margin: 7% auto 0px auto;
+}
+.services-text p:nth-child(1) {
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(77, 67, 49);
+  font-size: 30px;
+  line-height: 20px;
+}
+.services-text p:nth-child(2) {
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(77, 67, 49);
+  font-size: 15px;
+  line-height: 15px;
+}
+.services-text p:nth-child(3) {
+  font-family: cursive;
+  color: rgb(77, 67, 49);
+}
+.services-text {
+  width: 500px;
+  margin: 50px 0px;
+}
+.box-1,
+.box-2,
+.box-3 {
+  width: 300px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 12px rgba(235, 38, 38, 0.979);
+  border-radius: 15px;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.box-1 {
+  background-image: url("../images/box-1.png");
+  margin: 7% auto 0px auto;
+}
+.box-2 {
+  background-image: url("../images/box-2.png");
+  margin: 5% auto 0px auto;
+}
+.box-3 {
+  background-image: url("../images/box-3.png");
+  margin: 6% auto 0px auto;
+}
+.contact-me {
+  height: 95vh;
+  width: 90%;
+  background-image: url("../images/bg-contact.png");
+  padding: 0% 2%;
+  border-radius: 25px;
+  background-size: cover;
+  display: flow-root;
+  margin: 0% auto 0px auto;
+  text-align: center;
+  margin top:50px;
+}
+.contact-me h1,
+h3,
+p {
+  color: rgb(77, 67, 49);
+  font-family: cursive;
+}
+.contact-me h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-transform: capitalize;
+
+}
+.contact-me p {
+  margin-bottom: 50px;
+}
+.input-fields {
+  width: 45%;
+  float: left;
+  overflow: hidden ;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+.input-fields input {
+  border: 3px;
+  width: 345px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.msg {
+  width: 45%;
+  margin-top: 70px;
+  overflow:hidden;
+}
+.msg textarea {
+  width: 345px;
+  padding:5px 10px;
+  height: 150px;
+  margin-right: 20px;
+  margin-top: 20px;
+  resize: none;
+  border-radius: 3px;
+}
+.contact-me button {
+  padding: 15px 20px;
+  color: #1f1718;
+  text-transform: uppercase;
+  border: 1px solid #f6a0ac;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-right: 40px;
+  margin-top: 14px;
+}
+.contact-me button:hover {
+  border: 1px solid #b9606c;
+  background: #f6a0ac;
+}
+.details {
+  width: 250px;
+  height: 150px;
+  color: #f6a0ac;
+  float: left;
+  margin-right: 180px;
+  margin-top: 40px;
+  border-radius: 3px;
+  margin-bottom: 70px;
+}
+.details: :last-child {
+  margin-right: 0;
+}
+.details h3 {
+  padding-top: 0px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.details p {
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  text-transform: capitalize;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.sosmed {
+	background-color: #f6a0ac;
+	padding: 15px;
+  border-radius: 15px;
+  background-size: cover;
+  display: flow-root;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 500px;
+}
+.sosmed ul li {
+	color :  #145153;
+	display: inline-block;
+  display: center;
+
+}
+.copyright{
+	padding : 15px ;
+	background-color:#f6a0ac;
+  background-size: cover;
+	color : #fff ;
+	text-align: center;
+	font-weight: bold;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flow-root;
+  border-radius: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
